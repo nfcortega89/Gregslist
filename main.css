@@ -1,0 +1,140 @@
+nav {
+    position: fixed;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: grey;
+    text-align: right;
+}
+
+.title {
+    position: absolute;
+    left: 10px;
+}
+
+li {
+    float: left;
+    position: relative;
+    margin: 5px;
+    right: 10px;
+}
+
+a:link {
+    color: purple;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.links {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.content {
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 30px;
+    width: 600px;
+}
+
+button {
+    position: absolute;
+}
+
+#search {
+    height: 35px;
+    top: 100px;
+    left: 708px;
+}
+
+#previous {
+    width: 90px;
+    background-color: grey;
+    height: 40px;
+    left: 100px;
+    top: 165px;
+}
+span{
+    position: absolute;
+    background-color: grey;
+    text-align: center;
+    width: 211px;
+    height: 39px;
+    left: 191px;
+    top: 166px;
+    border-radius: 3px;
+}
+.numbers {
+    margin-top: 10px;
+}
+#next {
+    background-color: grey;
+    width: 90px;
+    height: 40px;
+    top: 165px;
+    left: 400px;
+    border-radius: 3px;
+}
+
+.starsection {
+    position: relative;
+}
+
+#star1 {
+    position: absolute;
+    top: 275px;
+    left: 110px;
+}
+
+#star1:hover {
+    color: yellow;
+}
+
+#star2 {
+    position: absolute;
+    left: 110px;
+    top: 317px;
+}
+
+#star2:hover {
+    color: yellow;
+}
+
+#star3 {
+    position: absolute;
+    left: 110px;
+    top: 357px;
+}
+
+#star3:hover {
+    color: yellow;
+}
+
+.june22 {
+    position: absolute;
+    top: 260px;
+    left: 140px;
+    color: grey;
+}
+
+.june21 {
+    position: absolute;
+    left: 140px;
+    top: 300px;
+    color: grey;
+}
+
+.june20 {
+    position: absolute;
+    left: 140px;
+    top: 339px;
+    color: grey;
+}
+
+.course {
+    color: blue;
+}
